@@ -12,8 +12,9 @@
 
     <modules>
         <module>springcloud-client</module>
-        <module>springcloud-config</module>
         <module>springcloud-eureka</module>
+        <module>springcloud-config</module>
+        <module>springcloud-config2</module>
     </modules>
 
 

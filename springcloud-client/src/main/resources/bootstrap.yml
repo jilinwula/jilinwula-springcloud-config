@@ -1,12 +1,9 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
 spring:
   application:
-    name: springcloud-config
+    name: client
   cloud:
     config:
       discovery:
+        enabled: true
         service-id: springcloud-config
-      uri: http://127.0.0.1:8081
+      profile: dev
