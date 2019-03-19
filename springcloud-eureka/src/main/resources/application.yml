@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://127.0.0.1:8084/eureka
     register-with-eureka: false
   server:
     enable-self-preservation: false
@@ -9,4 +9,4 @@ spring:
   application:
     name: springcloud-eureka
 server:
-  port: 8761
+  port: 8084

@@ -1,7 +1,7 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://127.0.0.1:8084/eureka
 spring:
   application:
     name: springcloud-config
@@ -12,3 +12,8 @@ spring:
           uri: https://github.com/jilinwula/springcloud-config
 server:
   port: 8081
+management:
+  endpoints:
+    web:
+      exposure:
+        exclude: "*"
