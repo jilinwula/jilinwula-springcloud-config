@@ -2,10 +2,10 @@ GET http://127.0.0.1:8081/client-dev.yml
 
 ###
 
-POST http://mzqha4.natappfree.cc/actuator/bus-refresh
+POST http://127.0.0.1:8081/actuator/bus-refresh
 
 ###
 
-POST http://mzqha4.natappfree.cc/config/sync
+POST http://127.0.0.1:8081/config/sync
 
 ###
